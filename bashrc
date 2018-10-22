@@ -110,7 +110,8 @@ tvb()
   pinst
   cd ~/tvm/nnvm/python
   pinst
-  cd ~/tvm/build  
+  cd ~/tvm/build 
+  make -j4
 }
 
 fixformat()
