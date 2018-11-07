@@ -4,4 +4,6 @@ cp gitconfig ~/.gitconfig
 
 
 # common packages I use.
-sudo apt install -y vim tmux python python-dev python-setuptools gcc libtinfo-dev zlib1g-dev
+apt install -y vim tmux python python-dev python-setuptools gcc libtinfo-dev zlib1g-dev svn
+
+pip install mxnet
