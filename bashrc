@@ -94,7 +94,8 @@ alias l='ls -CF'
 alias pinst='python setup.py install --user'
 
 export RISCV=/home/asamara/chips-riscv-tools
-export PATH=$PATH:/home/asamara/llvm/build/bin
+export LLVM_DIR=/home/asamara/llvm
+export PATH=$PATH:$LLVM_DIR/build/bin
 export PATH=$PATH:$RISCV/bin
 
 export TVM_HOME=/home/asamara/tvm
@@ -147,3 +148,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
+
+. /home/asamara/torch/install/bin/torch-activate
